@@ -2,6 +2,128 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+.h-screen{
+  height: 100vh;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.mt-80 {
+  margin-top: 20rem; /* You might want to adjust this value based on your design */
+}
+
+.lg\:text-7xl {
+  font-size: 5rem; /* You might want to adjust this value based on your design */
+}
+
+.md\:text-6xl {
+  font-size: 4rem; /* You might want to adjust this value based on your design */
+}
+
+.text-8vw {
+  font-size: 8vw;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.md\:text-xl {
+  font-size: 1.25rem; /* You might want to adjust this value based on your design */
+}
+
+.text-16px {
+  font-size: 16px;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+  margin-left: calc(1rem * var(--tw-space-x-reverse));
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.text-black {
+  color: #000;
+}
+
+.w-262px {
+  width: 262px;
+}
+
+.md\:h-67px {
+  height: 67px; /* You might want to adjust this value based on your design */
+}
+
+.w-194px {
+  width: 194px;
+}
+
+.h-50px {
+  height: 50px; /* You might want to adjust this value based on your design */
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.grid {
+  display: grid;
+}
+
+.items-center {
+  align-items: center;
+}
+
+
+
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -16,12 +138,6 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
-.h-screen{
-  height: 100vh;
-}
-
-
 
 body {
   color: rgb(var(--foreground-rgb));
